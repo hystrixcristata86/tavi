@@ -7,7 +7,7 @@ function HomePage() {
   const [latestTVSeries, setLatestTVSeries] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const apiKey = import.meta.env.SECRET_KEY;
+  const apiKey = import.meta.env.VITE_SECRET_KEY;
   const baseURL = 'https://api.themoviedb.org/3';
 
   const fetchTrending = async () => {
