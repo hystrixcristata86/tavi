@@ -1,3 +1,4 @@
+SECRET_KEY=a60c46cec767f3618b59526a83b1c434
 # Logs
 logs
 *.log
