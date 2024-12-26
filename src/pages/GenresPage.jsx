@@ -6,7 +6,7 @@ function GenresPage() {
   const [genrePosters, setGenrePosters] = useState({});
   const [loading, setLoading] = useState(true);
 
-  const tmdbApiKey = SECRET_KEY;
+  const tmdbApiKey = 'SECRET_KEY';
   const baseURL = 'https://api.themoviedb.org/3';
 
   const fetchGenres = async () => {
