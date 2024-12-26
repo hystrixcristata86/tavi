@@ -5,7 +5,7 @@ function MoviesPage() {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const apiKey = SECRET_KEY;
+  const apiKey = 'SECRET_KEY';
   const baseURL = 'https://api.themoviedb.org/3';
 
   const fetchMovies = async () => {
