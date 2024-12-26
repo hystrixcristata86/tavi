@@ -5,7 +5,7 @@ function TvSeriesPage() {
   const [series, setSeries] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const apiKey = 'a60c46cec767f3618b59526a83b1c434';
+  const apiKey = SECRET_KEY;
   const baseURL = 'https://api.themoviedb.org/3';
 
   const fetchSeries = async () => {
